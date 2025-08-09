@@ -2,24 +2,5 @@
   <body>
     <img id="1" src="masquerade-1.jpg"/>
     <img id="2" src="masquerade-2.png"/>
-    <script>
-      function setImageVisible(id) {
-        var img = document.getElementById(id);
-        if (img.style.visibility = 'visible') {
-          img.style.visibility = 'hidden'
-        } else {
-          img.style.visibility = 'visible'
-        }
-      }
-      setInterval(() => {
-        count++;
-        console.log(`Count: ${count}`);
-        if (count % 2 = 1) {
-          setImageVisible("1")
-        } else {
-          setImageVisible("2")
-        }
-      }, 1000); 
-    </script>
   </body>
 </html>
